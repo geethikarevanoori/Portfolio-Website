@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revanoori Geethika - Portfolio</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container flex-lg-column">
+      <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+        <span class="fw-bold h3 d-block d-lg-none">Revanoori Geethika</span>
+        <img src="portfolio.png" class="d-none d-lg-block rounded-circle profilepic" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="content-wrapper">
+    <section id="home" class="full-hight px-lg-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h1 class="text-uppercase display-4 fw-bold" data-aos="fade-up">
+              I'm Revanoori Geethika, a Professional
+              <span class="text-brand">Machine Learning Engineer/Frontend Developer</span>
+            </h1>
+            <p class="lead mt-2 mb-3 fs-3" data-aos="fade-up" data-aos-delay="300">
+              A passionate and driven individual with expertise in Machine Learning and Frontend Development. I build intelligent systems and craft engaging web experiences.
+            </p>
+            <div data-aos="fade-up" data-aos-delay="600">
+              <a href="#work" class="btn btn-brand fw-bold me-4">
+                See My Work</a>
+              <a href="mailto:geethikarevanoori@gmail.com" class="custom-link num"> Email: geethikarevanoori@gmail.com</a>
+              <a href="tel:+916304427450" class="custom-link num"> Call: +91 6304427450</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="full-hight px-lg-5">
+      <div class="container">
+        <div class="row p-4">
+          <div class="col-md-8" data-aos="fade-up">
+            <h6>SERVICES</h6>
+            <h1>What I Offer</h1>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="bg-base p-4 rounded-4 shadow-effect">
+              <div class="iconbox">
+                <i class="las la-code"></i>
+              </div>
+              <h5 class="mt-3 mb-4">Full Stack Web Development</h5>
+              <p>
+                I build Scalable web applications from front end to backend requirements
+              </p>
+              <p>
+                <b>Technologies:</b><br>
+                HTML, CSS, Vanilla Js, React Js, Flask, MongoDB
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="bg-base p-4 rounded-4 shadow-effect">
+              <div class="iconbox">
+                <i class="las la-brain"></i>
+              </div>
+              <h5 class="mt-3 mb-4">Deep Learning Model building</h5>
+              <p>
+                I develop and implement deep learning models for various applications. My expertise is primarily in Natural Language Processing Models
+              </p>
+              <p>
+                <b>Technologies:</b><br>
+                Python, TensorFlow, Keras, LangChain
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="bg-base p-4 rounded-4 shadow-effect">
+              <div class="iconbox">
+                <i class="las la-laptop-code"></i>
+              </div>
+              <h5 class="mt-3 mb-4">Programming Languages</h5>
+              <p>
+                Proficient in various programming languages for diverse development needs.
+              </p>
+              <p>
+                <b>Languages:</b><br>
+                Python, Java, C, C++, JavaScript
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work" class="full-hight px-lg-5">
+      <div class="container gy-4">
+        <div class="row p-4">
+          <div class="col-md-8" data-aos="fade-up">
+            <h6>WORK</h6>
+            <h1>My Recent Projects</h1>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-md-6 rounded-4" data-aos="fade-up">
+            <div class="card rounded-4 bg-base shadow-effect">
+              <div class="img rounded-4">
+                <img src="RLlearning.jpg" class="rounded-4" />
+              </div>
+              <div class="card-content p-3">
+                <h4>Reinforcement Learning based Trading bot</h4>
+                <p class="text-white">
+                  This project tuned a PPO model on a finance dataset and trained it in
+                  OpenAI Gym. The model was deployed using React and Flask as a working full stack application, integrated with a smart contract on the Ethereum Virtual Machine.
+                </p>
+                <p class="text-white">
+                  <b>Tech Stack:</b> React, Flask, OpenAI Gym, MetaMask, Ethereum, Solidity
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 rounded-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="card rounded-4 bg-base shadow-effect">
+              <div class="img rounded-4">
+                <img src="revv.png" class="rounded-4" />
+              </div>
+              <div class="card-content p-3">
+                <h4>Multi PDF Analyzer and Q&A chat agent</h4>
+                <p class="text-white">
+                  A Gen AI application built using Hugging Face models for summarization and Q&A, deployed locally using Streamlit.
+                </p>
+                <p class="text-white">
+                  <b>Tech Stack:</b> Streamlit, PyPDF, Hugging Face, BERT
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 rounded-4" data-aos="fade-up">
+            <div class="card rounded-4 bg-base shadow-effect">
+              <div class="img rounded-4">
+                <img src="MOVIES_.png" class="rounded-4" />
+              </div>
+              <div class="card-content p-3">
+                <h4>SMS Spam Classifier</h4>
+                <p class="text-white">
+                  A Machine Learning application that filters spam messages using TF-IDF for feature extraction and Multinomial Naive Bayes for classification, deployed locally using Streamlit.
+                </p>
+                <p class="text-white">
+                  <b>Tech Stack:</b> Python, Streamlit, MNB, TF-IDF
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 rounded-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="card rounded-4 bg-base shadow-effect">
+              <div class="img rounded-4">
+                <img src="PORTFOLIO_.png" class="rounded-4" />
+              </div>
+              <div class="card-content p-3">
+                <h4>Portfolio Website</h4>
+                <p class="text-white">
+                  A personal portfolio website to showcase my skills and projects.
+                </p>
+                <p class="text-white">
+                  <b>Tech Stack:</b> HTML, CSS, Bootstrap, JavaScript
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="full-hight px-lg-5">
+      <div class="container gy-4">
+        <div class="row p-4">
+          <div class="col-md-8" data-aos="fade-up">
+            <h6>ABOUT</h6>
+            <h1>Education</h1>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+            <div class="bg-base p-4 rounded-4 shadow-effect">
+              <h5 class="mt-3 mb-4">Computer Science Engineering W/S in Artificial Intelligence and Machine Learning B.Tech</h5>
+              <h6 class="text-brand">
+                SRM Institute of Science and Technology, Tiruchirappalli (2022-2026)
+              </h6>
+              <p>
+                CGPA: 9.40
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="600">
+            <div class="bg-base p-4 rounded-4 shadow-effect">
+              <h5 class="mt-3 mb-4">Intermediate, MPC</h5>
+              <h6 class="text-brand">
+                Sri Chaitanya Junior College, Vijayawada (2020-2022)
+              </h6>
+              <p>
+                Percentage: 94.7%
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="900">
+            <div class="bg-base p-4 rounded-4 shadow-effect">
+              <h5 class="mt-3 mb-4">Schooling</h5>
+              <h6 class="text-brand">
+                Sri Chaitanya Techno Curriculum, Madanapalle (2019-2020)
+              </h6>
+              <p>
+                Percentage: 98.33%
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="px-lg-5 py-4">
+      <div class="container m-4">
+        <div class="row justify-content-between gy-4">
+          <div class="col-auto mb-0">
+            <p>&copy; 2024 RevanooriGeethika. All Rights Reserved</p>
+          </div>
+          <div class="social-icons col-auto">
+            <a href="https://www.linkedin.com/in/revanoorigeethika/" target="_blank"><i class="lab la-linkedin"></i></a>
+            <a href="https://github.com/geethikarevanoori" target="_blank"><i class="lab la-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
